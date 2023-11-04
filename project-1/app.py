@@ -4,7 +4,7 @@ import pymysql as pms
 app = Flask(__name__)
 
 def sqlConnector():
-    conn = pms.connect(user='root', password='@karthiKeyan1234', db='karthikeyan', host='localhost')
+    conn = pms.connect(user='root', password='PASSWORD', db='DATABASE_NAME', host='localhost')
     c = conn.cursor()
     return conn, c
 
