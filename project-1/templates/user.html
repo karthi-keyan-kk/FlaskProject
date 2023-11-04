@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c64c743ece.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='user.css') }}">
+    <title>User Details</title>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <a href="{{ url_for('index') }}"><i class="fa-solid fa-circle-user"></i></a>
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('user') }}">New User</a>
+            <a href="{{ url_for('details') }}"> Users</a>
+        </nav>
+    </div>
+    <div class="user">
+        <form id="form1">
+            <h1>Details</h1>
+            <input type="text" name="IdNo" id="id" placeholder="ID No">
+            <input type="text" name="Name" id="name" placeholder="Name">
+            <input type="text" name="email" id="email" placeholder="E-mail">
+            <input type="text" name="role" id="role" placeholder="Role">
+            <button type="submit" id="btn">Submit</button>
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

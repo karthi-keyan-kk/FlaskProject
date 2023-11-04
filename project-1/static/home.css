@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    height: 41.9rem;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

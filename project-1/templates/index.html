@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c64c743ece.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <title>My Site</title>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <a href="{{ url_for('index') }}"><i class="fa-solid fa-circle-user"></i></a>
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('user') }}">New User</a>
+            <a href="{{ url_for('details') }}">Users</a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="inner-container">
+            <h1>Welcome!</h1>
+        </div>
+    </div>
+</body>
+</html>

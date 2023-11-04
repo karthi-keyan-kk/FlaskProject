@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.table-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+table, tr, th, td{
+    border: solid black 1px;
+    text-align: center;
+}
+
+td, th{
+    padding: 20px 30px;
+}
+
+.table-content table tr td a{
+    background: none;
+}
+
+button{
+    width: 75px;
+    height: 30px;
+    cursor: pointer;
+}

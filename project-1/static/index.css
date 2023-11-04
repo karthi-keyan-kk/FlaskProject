@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+}
+
+nav{
+    padding: 20px;
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all .8s;
+}
+
+a:hover{
+    width: 30px;
+    background-color: #145CB2;
+}
+
+.container{
+    height: 41.9rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.inner-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #add2ff;
+}
+
+.inner-container h1{
+    font-size: 100px;
+    color: #145CB2;
+    text-shadow: 0 0 30px #164E98;
+}
